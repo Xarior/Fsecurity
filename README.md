@@ -1,28 +1,28 @@
-*Fsecurity*
+* Fsecurity *
 ====================
-### A tool that transforms Firefox browsers into a penetration testing suite ###
+### Un outil qui transforme les navigateurs Firefox en une suite pour le pentest ###
 
 
-# How? #
-It downloads the most important extensions, and install it on your browser. The used extensions has been chosen by a survey among the information security community. Based on it's results, *Fsecurity* was made. Also, it allows you to download Burp Suite certificate and a large user-agent list for User-Agent Switcher. Making it one-click away to prepare your web-application testing browser.
+# Comment? #
+Il télécharge les extensions les plus utiles et les installes sur votre navigateur. Les extensions utilisées ont été choisies par un sondage auprès de la communauté de la sécurité de l'information. Sur la base de ses résultats, * Fsecurity * a été créé. En outre, il vous permet de télécharger le certificat Burp Suite et une grande liste d'agents utilisateurs pour User-Agent Switcher. Installer l'ensemble des addons en quelques clics pour préparer votre navigateur au test d'application Web.
 
-# How does it differ from well-known projects, such as *OWASP Mantra* and *Hcon STF*? #
-*OWASP Mantra* and *Hcon STF* are not regularly updated, and needs a lot of work in order to develop and maintain. Meanwhile, *Fsecurity* does not need a additional maintaining, although I would be maintaining it for any issues/bugs if needed. The used extensions are downloaded from Mozilla Addons Store with its latest version, to ensure the best testing experience for the penetration tester.
+# Comment diffère-t-il des projets bien connus, tels que * OWASP Mantra * et * Hcon STF *? #
+* OWASP Mantra * et * Hcon STF * ne sont pas régulièrement mis à jour et ont besoin de beaucoup de travail pour être développer et aussi le maintenir. Pendant ce temps, * Fsecurity * n'a pas besoin d'un maintien supplémentaire, même si je le maintenais pour tout problème / bogue si nécessaire. Les extensions utilisées sont téléchargées depuis Mozilla Addons Store avec sa dernière version, afin d'assurer la meilleure expérience de test pour le pentester.
 
-# Who can use *Fsecurity*? #
-Web-Application Penetration Testers, Information Security Learners, and basically anyone interested in web-application security.
+# Qui peut utiliser * Fsecurity *? #
+Pentester d'applications Web, consultant de sécurité, et fondamentalement tous ceux qui s'intéressent à la sécurité des applications Web.
 
-# Compatibility #
-The project supports Linux/Unix environments.
+# Compatibilité #
+Le projet prend en charge les environnements Linux / Unix.
 
-# Usage #
-bash ./fsecurity.sh
+# Utilisation #
+bash ./fsecurity.sh run
 
-# Available Add-ons #
+# Liste des Add-ons #
 * Advanced Dork (https://addons.mozilla.org/en-US/firefox/addon/advanced-dork/)
 * Cookie Export/Import (https://addons.mozilla.org/en-US/firefox/addon/cookies-exportimport/)
 * Cookie Manager+ (https://addons.mozilla.org/en-US/firefox/addon/cookies-manager-plus/)
-*Ghostery(https://addons.mozilla.org/firefox/downloads/latest/ghostery/)
+* Ghostery  (https://addons.mozilla.org/firefox/downloads/latest/ghostery/)
 * Crypto Fox (https://addons.mozilla.org/en-US/firefox/addon/cryptofox/)
 * CSRF-Finder (https://addons.mozilla.org/en-us/firefox/addon/csrf-finder/)
 * Disable WebRTC (https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/)
@@ -46,16 +46,16 @@ bash ./fsecurity.sh
 * Web Developer (https://addons.mozilla.org/en-us/firefox/addon/web-developer/)
 
 # Additions & Features #
-* Downloading Burp Suite certificate.
-* Downloading a large user-agent list for User-Agent Switcher.
+* Téléchargement du certificat Burp Suite.
+* Téléchargement d'une grande liste d'utilisateurs-agents pour User-Agent Switcher.
 
 
-# **Legal Disclaimer** #
-This project is made for educational and ethical testing purposes only. Usage of Fsecurity for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
+# **Avertissement légal** #
+Ce projet est conçu uniquement à des fins éducatives et éthiques. L'utilisation de Fsecurity pour attaquer des cibles sans accord préalable est illégale. Il incombe à l'utilisateur final d'obéir à toutes les lois locales, éthiques et fédérales applicables. Les développeurs n'assument aucune responsabilité et ne sont pas responsables de toute utilisation abusive ou dommage causée par ce programme.
 
 
-# **License** #
-The project is licensed under MIT License.
+# **Licence** #
+Le projet est sous licence MIT.
 
 # **Author** #
 *T2iservices*
