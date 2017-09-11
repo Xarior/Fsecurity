@@ -90,7 +90,7 @@ scriptpath=$(mktemp -d)
 echo -e "[*] Created a tmp directory at [$scriptpath]."
 
 # inserting a "Installation is Finished" page into $scriptpath.
-echo '<!DOCTYPE HTML><html><center><head><h1>Installation is Finished</h1></head><body><p><h2>You can close Firefox.</h2><h3><i>Firefox Security Toolkit</i></h3></p></body></center></html>' > "$scriptpath/.installation_finished.html"
+echo '<!DOCTYPE HTML><html><center><head><h1>Installation is Finished</h1></head><body><p><h2>You can close Firefox.</h2><h3><i>Fsecurity</i></h3></p></body></center></html>' > "$scriptpath/.installation_finished.html"
 
 # checks whether the user would like to download Burp Suite certificate.
 echo -n "[@] Would you like to download Burp Suite certificate? [y/n]. (Note: Burp Suite should be running in your machine): "; read -r burp_cert_answer
